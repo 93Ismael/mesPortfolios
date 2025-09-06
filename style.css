@@ -1,12 +1,12 @@
 :root{
---bg:#0b1220; /* encadrement externe (si utilisé) */
---page:#f5f8fb; /* fond général léger */
---card:#ffffff; /* fond des cartes */
---ink:#0f172a; /* texte principal */
---muted:#6b7280; /* texte secondaire */
---accent:#12d9c7; /* turquoise comme sur la maquette */
---accent-600:#0bb3a5; /* pour hover */
---dark:#0f1115; /* blocs inversés */
+--bg:#0b1220; 
+--page:#f5f8fb; 
+--card:#ffffff;
+--ink:#0f172a; 
+--muted:#6b7280;
+--accent:#12d9c7; 
+--accent-600:#0bb3a5; 
+--dark:#0f1115; 
 --shadow:0 10px 25px rgba(2, 8, 23, .08);
 --radius:18px;
 --radius-lg:22px;
@@ -334,12 +334,6 @@ section{
 }
 
 
- /* .section-title{
-  display:flex; 
-  align-items:center; 
-  justify-content:space-between; 
-  margin:48px 0 16px;
-}  */
 .section-title h2{
   text-align: center;
   padding: 60px 20px;
@@ -430,7 +424,7 @@ section{
   width: 350px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   text-align: left;
-  width: 600px;
+  width: 500px;
 }
 
 .skills-card h3 {
@@ -463,12 +457,6 @@ section{
   border-radius: 8px;
 }
 
-/* ====== Skills ====== */
-/* .skills{display:grid; grid-template-columns:repeat(2,1fr); gap:18px}
-.skill{display:grid; grid-template-columns:1fr auto; align-items:center; gap:12px; margin:8px 0}
-.bar{grid-column:1 / -1; height:10px; background:#edf2f7; border-radius:999px; overflow:hidden}
-.bar > span{display:block; height:100%; background:linear-gradient(90deg, var(--accent), #7cf2e8)}
-@media (max-width:860px){.skills{grid-template-columns:1fr}} */
 
 /* ====== Contact (dark block) ====== */
 .contact-wrap{
