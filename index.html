@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio – Développeur en devenir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--- header -->
+
+   <header>
+<nav class="nav">
+<div class="brand" aria-label="Accueil">
+<span class="logo" aria-hidden="true"></span>
+<span class="accent">SAVANE <span class="accent">SOUMAILA</span></span>
+</div>
+
+
+<ul>
+<li><a href="#accueil" class="active">Accueil</a></li>
+<li><a href="#apropos">À propos</a></li>
+<li><a href="#projets">Projets</a></li>
+<li><a href="#competences">Compétences</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+
+<button class="burger" aria-label="Ouvrir le menu" id="burger">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+</button>
+</nav>
+<div class="drawer" id="drawer">
+<a href="#accueil" class="active">Accueil</a>
+<a href="#apropos">À propos</a>
+<a href="#projets">Projets</a>
+<a href="#competences">Compétences</a>
+<a href="#contact">Contact</a>
+</div>
+</header>
+
+    
+      <!-- Hero -->
+      <section id="accueil" class="hero" aria-label="Section de présentation">
+        <div class="hero-card" data-reveal>
+          <span class="eyebrow">Développeur en devenir</span>
+          <h1>
+            Je suis <span class="accent">SOUMAILA</span>, passionné par le web
+            et le design !
+          </h1>
+          <p class="lead">
+            Je conçois des interfaces propres, accessibles et performantes. Mon
+            objectif : créer des expériences qui allient
+            <strong>esthétique</strong> et <strong>utilité</strong>.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#projets">Voir mon portfolio</a>
+            <a class="btn btn-ghost" href="#contact">Me contacter</a>
+          </div>
+        </div>
+        <div class="hero-illus" data-reveal>
+          <!-- Illustration libre (remplace l'image ci-dessous par la tienne) -->
+          <img
+            src="./images/Image3.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="about">
+        <h2>À propos</h2>
+    <div class="about-text">
+      
+      <p>Je m’appelle <span class="highlight">[Nom]</span>, passionné par la<br>
+        création de sites web modernes et interactifs.</p>
+      
+      <p>Je suis actuellement étudiant(e) <span class="highlight">en développement web</span>,<br>
+        et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+      
+      <p>J’adore transformer mes idées en projets concrets<br>
+        et expérimenter avec les nouvelles technologies.</p>
+
+      <a href="./cv/SAVANE SOUMAILA ok.pdf2.pdf" class="btn-cv" download>Télécharger mon CV</a>
+    </div>
+
+    <div class="about-photo">
+      <img src="./images/profile.png" alt="Photo de profil">
+    </div>
+  </section>
+
+
+      <!-- Projets -->
+      <section class="projet" id="projets" aria-label="Mes projets">
+        <div class="section-title">
+          <h2>Mes Projets</h2>
+          <a href="#" class="pill">Voir tout</a>
+        </div>
+        <div class="grid">
+          <article class="card" data-reveal>
+            <div class="thumb"> Compétences WordPress</div>
+            <h3>Site vitrine moderne</h3>
+            <p>
+              Contribution à la personnalisation de sections de pages
+                web de quelques entreprises afin de répondre à des
+                besoins spécifiques.
+            </p>
+            <a href=" https://sendevhub.org/" aria-label="Ouvrir le projet 1">Aperçu du projet →</a>
+          </article>
+          <article class="card" data-reveal>
+            <div class="thumb">Compétences WordPress</div>
+            <h3>Conception de site web e-commerce </h3>
+            <p> Réalisation d’un site web de vente en ligne permettant
+                à l’utilisateur d’avoir une session et faire des achats.
+              </p>
+            <a href="https://fashion-shop.wuaze.com" aria-label="Ouvrir le projet 2">Aperçu du projet →</a>
+          </article>
+          <article class="card" data-reveal>
+            <div class="thumb">HTML, CSS, JAVASCRIPT</div>
+            <h3>Conception de site web de formation en ligne</h3>
+            <p>
+               Réalisation d’un site web permettant à l’utilisateur
+                d’avoir une session et prendre part aux cours
+                disponibles en ligne..
+            </p>
+            <a href="https://drdiallo.net/" aria-label="Ouvrir le projet 3">Aperçu du projet →</a>
+          </article>
+        </div>
+      </section>
+
+     <section id="competences" class="competences-section">
+  <h2>Mes Compétences</h2>
+  <div class="skills-container">
+
+    <!-- Soft Skills -->
+    <div class="skills-card">
+      <h3>Soft Skills</h3>
+      <div class="skill">
+        <span>Gestion de projet</span>
+        <div class="bar"><div style="width:70%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Résolution de problème</span>
+        <div class="bar"><div style="width:60%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Adaptabilité</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+    </div>
+
+    <!-- Hard Skills -->
+    <div class="skills-card">
+      <h3>Hard Skills</h3>
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><div style="width:95%"></div></div>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar"><div style="width:70%"></div></div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <span>VS Code</span>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact-wrap" aria-label="Contact">
+        <div class="contact">
+          <div>
+            <h2>Vous avez un projet en tête ?</h2>
+            <p>
+              Laissez‑moi un message avec un maximum de détails et je vous
+              répondrai rapidement.
+            </p>
+            <ul>
+              <li>Réponse sous 24–48h</li>
+              <li>Disponible du lundi au samedi</li>
+            </ul>
+          </div>
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Votre nom</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="nom"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="name">Votre prénom</label>
+              <input
+                id="prenom"
+                name="prenom"
+                type="text"
+                placeholder="prenom"
+                required
+              />
+            </div>
+
+            <!-- <div class="field">
+              <label for="savane.soumaila93@gmail.com">E‑mail</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="mail"
+                required
+              />
+            </div> -->
+
+            <div class="field">
+              <label for="name">Votre sujet</label>
+              <input
+                id="sujet"
+                name="sujet"
+                type="text"
+                placeholder="sujet"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Parlez‑moi de votre besoin…"
+                required
+              ></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Envoyer</button>
+            <p
+              id="formStatus"
+              role="status"
+              aria-live="polite"
+              style="margin-top: 10px"
+            ></p>
+          </form>
+        </div>
+      </section>
+   
+
+    <footer>
+      © <span id="year"></span> — Portfolio SOUMAILA. Tous droits réservés •
+      Construit avec ♥ en HTML/CSS/JS.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
